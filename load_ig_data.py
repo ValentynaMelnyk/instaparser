@@ -142,7 +142,7 @@ def make_ig_user(json_file):
 if __name__ == '__main__':
 
     # TEST LOAD IG DATA.
-    victoriassecret = make_ig_user('enriqueiglesias.json')
+    victoriassecret = make_ig_user('victoriasecret.json')
     print victoriassecret.get_attr("full_name")
     print victoriassecret
     print "Nodes:", victoriassecret.get_all_nodes()
